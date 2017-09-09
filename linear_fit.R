@@ -14,7 +14,7 @@ summary(linear_fit)
 
 # Pearson signal (positive or negative relationship)
 var1= (data$answer_variable)
-var2= (data#preditive_variable)
+var2= (data$preditive_variable)
 cor(var1, var2) #Pearson signal response
 linear_fit # catch intercept and angular coefficient values
 
